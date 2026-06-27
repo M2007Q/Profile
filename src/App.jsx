@@ -7,7 +7,7 @@ function App() {
   
     <img src={image} alt=""/>
        <h1>DarkSoul</h1>
-       <p>An ordinary web-developer from khujand. Studying at TSULBP</p>
+       <p>An ordinary web-developer from Khujand. Studying at TSULBP</p>
   </div>
     <div id='info'>
       <a href="https://www.instagram.com/d.a.r.k_s.o.u.1?igsh=dDN3NjUyOGpmeGYz"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
