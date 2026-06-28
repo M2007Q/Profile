@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import image from '../public/image.jpg';
+
 import photo from '../public/Moon.jpg'
 function App() {
  return (<>
