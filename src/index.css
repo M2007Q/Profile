@@ -31,17 +31,23 @@ body {
   flex-direction: column;
 }
 img{
+  object-fit: cover;
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
-h1, p{
-  color:var(--border)
+h1{
+  color:var(--border);
+
+}
+p{
+  color:var(--border);
+  font-size: clamp(1em, 3vw, 1.5em);
 }
 #info{
 width: 90%;
 border-inline: 1px solid var(--border);
-border-radius: 10px;
+border-radius: 5px;
 }
 
 
