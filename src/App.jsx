@@ -126,7 +126,7 @@ function App() {
 </svg>
     </section>
   <section className='last'>
-    <h1>Спасибо за просмотр!!!Leave your comments</h1>
+    <h1>Спасибо за просмотр!!!</h1>
 </section>
     </>
     
