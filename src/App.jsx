@@ -127,10 +127,7 @@ function App() {
     </section>
   <section className='last'>
     <h1>Спасибо за просмотр!!!Leave your comments</h1>
-
-<Comment/>
-    
-    </section>
+</section>
     </>
     
   )
