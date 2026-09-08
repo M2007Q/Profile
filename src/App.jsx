@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Comment from './comment'
+
 import photo from '../public/eqwqw8.jpg'
 function App() {
  return (<>
