@@ -1,6 +1,6 @@
 import { useState } from 'react'
-
-import photo from '../public/Moon.jpg'
+import Comment from './comment'
+import photo from '../public/eqwqw8.jpg'
 function App() {
  return (<>
   <h1>Добро пожаловать!!!</h1>
@@ -126,7 +126,9 @@ function App() {
 </svg>
     </section>
   <section className='last'>
-    <h1>Спасибо за просмотр!!!</h1>
+    <h1>Спасибо за просмотр!!!Leave your comments</h1>
+
+<Comment/>
     
     </section>
     </>

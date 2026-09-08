@@ -1,0 +1,62 @@
+.comecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.area{
+    width: clamp(220px, 60vw, 500px);
+    height: 200px;
+    resize: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    transition: all .3s ease;
+}
+
+.area:focus{transform:skew(20deg, -10deg) rotateX(15deg);
+   box-shadow: -30px 20px 10px black;
+    outline:blue;
+}
+.sendcome{
+    position: relative;
+    transition: all .3s ease;
+    width: 10em;
+    height: 3em;
+    outline: none;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sendcome:hover::after{
+    width: 100%;
+}
+.sendcome::after{
+    transition: all .4s ease;
+    box-sizing: border-box;
+    content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 10%;
+    width: 0%;
+    display: block;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+.area:focus+.sendcome:hover{
+    background-color: greenyellow;
+    color: white;
+    font-weight: bolder;
+}
+.area:focus +.sendcome{
+  transform:skew(20deg, -10deg);
+   box-shadow: -30px 20px 10px black;
+}
