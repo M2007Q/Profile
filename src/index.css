@@ -166,3 +166,54 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  svg {
   flex: 1 1 5em;
  }
+
+ /* //loader */
+ #loader{
+    color:#fff ;
+    border: 20px solid rgb(254, 251, 251);
+
+    /* border-left-color: black; */
+   
+    border-radius: 50%;
+    animation: anim 1s ease infinite;
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes anim{
+    0%{
+        
+         border-top-color:red ;
+         border-right-color:transparent;
+         border-bottom-color: transparent;
+         border-left-color:transparent; 
+    }
+    25%{
+          border-top-color:transparent ;
+         border-right-color:red;
+         border-bottom-color:transparent;
+         border-left-color:transparent; 
+    }
+    50%{
+         border-top-color:transparent ;
+         border-right-color:transparent;
+         border-bottom-color: red;
+         border-left-color:transparent; 
+    }
+    75%{
+         border-top-color:transparent ;
+         border-right-color:transparent;
+         border-bottom-color:transparent;
+         border-left-color:rgb(228, 213, 213); 
+       
+    }
+    100%{
+
+         border-top-color:red ;
+         border-right-color:transparent;
+         border-bottom-color:transparent;
+         border-left-color:transparent;  
+    }
+     from{rotate: 0;}to{rotate: 360deg;}
+}

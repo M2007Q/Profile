@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import Loader from './loader'
 import photo from '../public/eqwqw8.jpg'
 function App() {
  return (<>
@@ -126,8 +126,9 @@ function App() {
 </svg>
     </section>
   <section className='last'>
-    <h1>Спасибо за просмотр!!!</h1>
-</section>
+   <Loader size={100}/>
+  <h1>Ещё в разработке...</h1>
+  </section>
     </>
     
   )
